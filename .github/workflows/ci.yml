@@ -1,7 +1,10 @@
 name: CI
 
 on: [push, pull_request]
-
+  branch:
+    - main
+    - feature/TF_04
+    
 jobs:
   test:
     runs-on: ubuntu-latest
