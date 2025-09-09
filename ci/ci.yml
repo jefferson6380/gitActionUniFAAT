@@ -1,5 +1,10 @@
 name: CI
 
+on:
+  merge:
+    branch:
+      - main
+      - feature/TF_04
 
 jobs:
   test:
